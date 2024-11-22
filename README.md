@@ -20,7 +20,7 @@
 
 ## 📏 Standard Style Guidelines _(Any Language)_
 ### 1.1 Indentation:
-- Use **tabulation of 8 spaces** instead of 4 for consistency and readability.
+- Use **8 spaced tabs** instead of 4 for consistency and readability.
 
 
 _correct approach:_
