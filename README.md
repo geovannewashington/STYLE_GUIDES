@@ -49,7 +49,7 @@ static get_quotient(a, b) {
 - **Exceptions:** Only when breaking the line **really** compromises readability or functionality.
 - Tip for `VSCode` Users: Add a vertical ruler for visual feedback:
 
-```json
+```JavaScript
 // settings.json
 "editor.rulers": [100]
 ```
