@@ -92,7 +92,7 @@ int foo(void)
 ```c
 int get_quotient(int a, int b) {
         if (b == 0) {
-                return 1;
+                return -1;
         }
         return a / b;
 }
