@@ -2,23 +2,23 @@
 📏 My coding style guidelines for myself and contributors.
 
 ## Table of Contents (ToC)
-1. [Standard Style Guidelines _(any language)_](#📏-standard-style-guidelines-any-language)
+1. [Standard Style Guidelines _(any language)_](#standard-style-guidelines-any-language)
     - 1.1 [Indentation](#11-indentation)
     - 1.2 [Horizontal code limit](#12-horizontal-code-limit)
     - 1.3 [Naming Variables and Functions & Others:](#13-naming-variables-and-functions)
-    - 1.4 [Constants](#14-constants)
-2. [C Language Specific Guidelines](#⚙️-c-language-specific-guidelines)
+2. [C Language Specific Guidelines](#c-language-specific-guidelines)
     - 2.1 [Functions styling](#21-functions-styling) 
-3. [JavaScript Specific Guidelines](#🌐-javascript-specific-guidelines)
+    - 2.2 [Constants](#22-constants)
+3. [JavaScript Specific Guidelines](#javascript-specific-guidelines)
     - 3.1 [Arrow functions usage](#31-arrow-function-usage)
     - 3.2 [Single-statement functions](#32-single-statement-functions)
-4. [Examples](#💡-examples)
-    - 4.1 [Code Following Guidelines](#✅-41-code-following-guidelines)
-    - 4.2 [Code Violating Guidelines](#❌-42-code-violating-guidelines)
+4. [Examples](#examples)
+    - 4.1 [Code Following Guidelines](#41-code-following-guidelines)
+    - 4.2 [Code Violating Guidelines](#42-code-violating-guidelines)
 5. [Final Notes](#final-notes)
 
 
-## 📏 Standard Style Guidelines _(Any Language)_
+## Standard Style Guidelines _(Any Language)_
 ### 1.1 Indentation:
 - Use **8 spaced tabs** instead of 4 for consistency and readability.
 
@@ -65,19 +65,8 @@ get get_full_name() {
 ```C
 bool is_even(int n);
 ```
----
-### 1.4 Constants 
-- Constants must be written in **uppercase** (e.g. `TAX_RATE`, `MAX_PRODUCTS`).
-- Define constants in the global scope at the **top of the file** for better visibility.
 
-_correct approach:_
-```JavaScript
-const TAX_RATE = 0.2;
-const MAX_PRODUCTS = 100;
-```
----
-
-## ⚙️ C Language Specific Guidelines
+## C Language Specific Guidelines
 
 ### 2.1 Functions Styling
 - Use **Allman Style** for **global functions**:
@@ -98,7 +87,17 @@ int get_quotient(int a, int b) {
 }
 ```
 ---
-## 🌐 JavaScript Specific Guidelines
+### 2.2 Constants 
+- Constants must be written in **uppercase** (e.g. `TAX_RATE`, `MAX_PRODUCTS`).
+- Global-scoped constants must be defined at the **top of the file** for better visibility.
+
+_correct approach:_
+```c
+const float TAX_RATE = 0.2;
+const int MAX_PRODUCTS = 100;
+```
+
+## JavaScript Specific Guidelines
 
 ### 3.1 Arrow Function Usage:
 - Use **arrow functions** only for **callbacks**.
@@ -130,9 +129,9 @@ function add(a, b) {
 } // Avoid breaking into multiple lines unnecessarily.
 ```
 
-## 💡 Examples
+## Examples
 
-### ✅ 4.1 Code Following Guidelines:
+### 4.1 Code Following Guidelines:
 
 **Example 1: C Code Following Guidelines**
 ```c
@@ -162,7 +161,7 @@ array.map((item) => item * 2);
 ```
 ---
 
-### ❌ 4.2 Code Violating Guidelines:
+### 4.2 Code Violating Guidelines:
 **Example 1: C Code Violating Guidelines**
 ```c
 #define Max_Products 100
