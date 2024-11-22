@@ -12,10 +12,7 @@
 3. [JavaScript Specific Guidelines](#javascript-specific-guidelines)
     - 3.1 [Arrow functions usage](#31-arrow-function-usage)
     - 3.2 [Single-statement functions](#32-single-statement-functions)
-4. [Examples](#examples)
-    - 4.1 [Code Following Guidelines](#41-code-following-guidelines)
-    - 4.2 [Code Violating Guidelines](#42-code-violating-guidelines)
-5. [Final Notes](#final-notes)
+4. [Final Notes](#final-notes)
 
 
 ## Standard Style Guidelines _(Any Language)_
@@ -128,65 +125,5 @@ function add(a, b) {
         return a + b; 
 } // Avoid breaking into multiple lines unnecessarily.
 ```
-
-## Examples
-
-### 4.1 Code Following Guidelines:
-
-**Example 1: C Code Following Guidelines**
-```c
-#define MAX_PRODUCTS 100 
-
-int foo(void) 
-{
-        for (int i = 0; i < MAX_PRODUCTS; i++) {
-                printf("Product %d\n", i); 
-        }
-        return 0; 
-}
-
-bool is_even(int n) 
-{
-        return n % 2 == 0; 
-}
-```
-
-**Example 2: JavaScript Code Following Guidelines**
-```JavaScript
-const TAX_RATE = 0.2;
-
-function calculate_tax(price) { return price * TAX_RATE; };
-
-array.map((item) => item * 2); 
-```
----
-
-### 4.2 Code Violating Guidelines:
-**Example 1: C Code Violating Guidelines**
-```c
-#define Max_Products 100
-
-int foo(void) {
-  for(int i = 0; i < Max_Products; i++) 
-  { 
-      printf("Product %d\n", i); 
-  } 
-  return 0;
-}
-
-bool IsEven(int n) { return n % 2 == 0; } 
-```
-**Example 2: JavaScript Code Violating Guidelines**
-```JavaScript
-const taxRate = 0.2; 
-
-function calculateTax(price) 
-{ 
-    return price * taxRate; 
-};
-
-let result = array.map(function(item) { return item * 2; });
-```
-
 ## Final Notes:
 - Adherence to these guidelines ensures consistency and improves readability for all contributors.
