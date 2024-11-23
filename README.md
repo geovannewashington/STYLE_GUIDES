@@ -154,7 +154,8 @@ let username = 'JaneDoe'; // Use const instead, as username does not change
 ```
 
 ## 3.4 String Delimiters:
-- Always prefer using **single quotes** for strings, unless the string contains single quotes, in which case, use double quotes.
+- Always prefer using **single quotes** for strings, unless the string contains single quotes, 
+in which case, use double quotes.
 
 _correct example:_
 ```JavaScript
