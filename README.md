@@ -2,7 +2,7 @@
 📏 My coding style guidelines for myself and contributors.
 
 ## Table of Contents (ToC)
-1. [Standard Style Guidelines _(any programming language)_](#standard-style-guidelines-any-programming-language)
+1. [Standard Style Guidelines _(any language)_](#standard-style-guidelines-any-language)
     - 1.1 [Indentation](#11-indentation)
     - 1.2 [Horizontal code limit](#12-horizontal-code-limit)
     - 1.3 [Naming Variables and Functions & Others:](#13-naming-variables-and-functions)
@@ -17,7 +17,7 @@
 4. [Final Notes](#final-notes)
 
 
-## Standard Style Guidelines _(Any Programming Language)_
+## Standard Style Guidelines _(Any Language)_
 ### 1.1 Indentation:
 - Use **8 spaced tabs** instead of 4 for consistency and readability.
 
